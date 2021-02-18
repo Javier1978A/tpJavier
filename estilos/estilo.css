@@ -1,0 +1,114 @@
+body{
+    background-color:rgb(175, 154, 182);
+}
+.logo{
+    width: 50px;
+}
+.navbar{
+    background-color: rgb(189, 33, 48);
+}
+a:hover{
+    background-color:olivedrab;
+}
+
+.titulo{
+    background-color: rgb(99, 115, 161);
+    margin: 0;
+}
+.container{
+    background-color: rgb(111, 129, 129);
+}
+
+p.prueba::first-letter{
+font-size: 30px;
+color: red;
+}
+
+.fuente{
+    font-style: italic;
+    font-weight:bold;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: slategrey;
+}
+.card{
+    margin: 30px;
+}
+.card-title{
+    font-style: italic;
+}
+
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: sienna;
+}
+ a.btn:focus:focus{
+    background-color:olive;
+}
+
+.contenedor{
+    display: flex;
+    background-color: rgb(129, 144, 187);
+}
+.derecha, .izquierda{
+    margin: 30px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(114, 21, 10);
+}
+p.derecha::first-letter{
+    font-size: 30px;
+    color: rgb(228, 151, 64);
+}
+.pie-pagina{  
+    background-color: rgb(94, 82, 82);
+    width: 100%;
+    height: 20%;
+    position: absolute;                 
+    
+}
+.social-icon{
+    margin-right: 30px;
+}
+.social-icon img{
+    width: 30px;
+}
+.redes{
+    display: flex;
+    justify-content: center;    
+}
+.contenedor-primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contenedor-segundo, .contenedor-tercero{
+    text-align: justify;
+}
+.contenedor-segundo{
+    margin-left: 10px;
+    margin-top: -5%;
+}
+.contenedor-tercero{
+    margin-right: 10px;
+    
+}
+.input-decoration{
+    border-radius: 5px;
+    background-color: rgb(132, 139, 172);
+}
+.dis-none{
+    display: none;
+        
+}
+td,tr,th {
+   border: 2px solid blue;
+   text-align: center;
+   padding: 10px;
+}
